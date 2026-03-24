@@ -1,0 +1,219 @@
+/* RESET & LAYOUT */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* MAIN CONTENT EXPANDS */
+main {
+    flex: 1;
+}
+
+/* HEADER */
+.site-header {
+    background-color: #ce2939; /* Hungarian red */
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Hungarian flag bar under header */
+.flag-bar {
+    height: 10px;
+    background: linear-gradient(to right, #ce2939 33%, white 33% 66%, #477050 66%);
+}
+
+/* NAVIGATION */
+/* .navbar {
+    margin-top: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+} */
+
+/* INTRO SECTION */
+.intro-section {
+    background: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* FEATURED CARDS */
+.featured-section {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border-top: 6px solid #477050; /* Hungarian green */
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card h3 {
+    color: #ce2939;
+}
+
+.card a {
+    text-decoration: none;
+    color: #ce2939;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* GALLERY SECTION */
+.gallery-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+
+.gallery-item h3 {
+    margin: 12px 0 6px;
+    color: #ce2939;
+    font-weight: bold;
+}
+
+.gallery-item a {
+    text-decoration: none;
+    color: #ce2939;
+    font-weight: bold;
+}
+
+.gallery-item p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.gallery-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* FOOTER (STICKY LAYOUT) */
+.site-footer {
+    background-color: #477050; /* Hungarian green */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+    .featured-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* CLOTHING SECTION */
+.clothing-section {
+    padding: 40px;
+    background: white;
+    text-align: center;
+}
+
+.clothing-item {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+/* Wraps the whole page content */
+.page-wrapper {
+    flex: 1; /* works with your flex layout */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 15px;
+}
+
+/* Main page card (DO NOT confuse with .card) */
+.page-card {
+    width: 100%;
+    max-width: 1000px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+    .page-card {
+        padding: 20px;
+        border-radius: 8px;
+    }
+}
+
+/* Clean, consistent gallery images */
+.gallery-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+

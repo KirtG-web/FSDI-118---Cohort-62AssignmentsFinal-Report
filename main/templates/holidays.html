@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<section class="holidays-section container py-5">
+
+    <h2 class="text-center mb-4">{% trans "Holidays & Traditions" %}</h2>
+
+    <p class="text-center">
+        {% trans "Hungary has many rich and meaningful holidays that reflect its culture, history, and traditions." %}
+    </p>
+
+    <div class="row mt-5">
+
+        <!-- Holiday 1 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="{% static 'images/christmas.jpg' %}" class="card-img-top" alt="{% trans 'Christmas image' %}">
+                <div class="card-body">
+                    <h5 class="card-title">{% trans "Christmas" %}</h5>
+                    <p class="card-text">
+                        {% trans "A time for family gatherings, traditional foods, and festive celebrations across Hungary." %}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Holiday 2 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="{% static 'images/easter.jpg' %}" class="card-img-top" alt="{% trans 'Easter image' %}">
+                <div class="card-body">
+                    <h5 class="card-title">{% trans "Easter" %}</h5>
+                    <p class="card-text">
+                        {% trans "Celebrated with unique traditions like \"watering\" and colorful folk customs." %}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Holiday 3 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="{% static 'images/st_stephens_day.jpg' %}" class="card-img-top" alt="{% trans 'St. Stephen’s Day image' %}">
+                <div class="card-body">
+                    <h5 class="card-title">{% trans "St. Stephen’s Day" %}</h5>
+                    <p class="card-text">
+                        {% trans "A national holiday celebrating Hungary’s founding with fireworks and celebrations." %}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

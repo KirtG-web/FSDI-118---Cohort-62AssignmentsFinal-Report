@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <h2>{% trans "Contact Us" %}</h2>
+
+    <p>{% trans "If you have any questions, feel free to reach out!" %}</p>
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">{% trans "Name" %}</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">{% trans "Email" %}</label>
+            <input type="email" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">{% trans "Message" %}</label>
+            <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-danger">
+            {% trans "Send" %}
+        </button>
+    </form>
+
+</div>
+
+{% endblock %}

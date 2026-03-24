@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<section class="about-section">
+
+<h2>{% trans "About Hungary" %}</h2>
+
+<p>{% trans "Hungary has a rich history and vibrant culture." %}</p>
+
+<p>
+{% trans "Hungary has a long and complex history, influenced by various cultures and empires. It has been home to the Magyars since the 9th century and has seen periods of Ottoman, Habsburg, and Soviet influence." %}
+<br>
+{% trans "Learn more in our History section." %}
+</p>
+
+<h3>{% trans "Language" %}</h3>
+
+<p>
+{% trans "Hungarian (Magyar) is the official language of Hungary. It is a unique language belonging to the Uralic language family and is not closely related to other European languages." %}
+<br>
+{% trans "Want to learn more? Check out our Language page." %}
+</p>
+
+<h3>{% trans "Cultural Identity" %}</h3>
+
+<p>
+{% trans "Hungarians take great pride in their cultural heritage, which includes traditional music, dance, cuisine, and festivals. The country is known for its vibrant folk traditions and contributions to art and literature." %}
+<br>
+{% trans "Explore Culture & Traditions and view our Gallery." %}
+</p>
+
+<h3>{% trans "Cuisine & Traditions" %}</h3>
+
+<p>
+{% trans "Discover traditional Hungarian dishes in our Food section and learn about celebrations in Holidays. Explore iconic Landmarks as well." %}
+</p>
+
+</section>
+{% endblock %}

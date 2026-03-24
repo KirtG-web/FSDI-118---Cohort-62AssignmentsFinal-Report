@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<section class="culture-section">
+
+<h2>{% trans "Hungarian Culture" %}</h2>
+
+<p>
+{% trans "Hungary has a rich and diverse culture influenced by its long history. Traditional folk music and dance are still important today." %}
+</p>
+
+<ul>
+    <li>{% trans "Folk dances and traditional clothing" %}</li>
+    <li>{% trans "Handmade crafts and embroidery" %}</li>
+    <li>{% trans "Famous composers like Franz Liszt and Béla Bartók" %}</li>
+</ul>
+
+</section>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<h2>{% trans "Resources" %}</h2>
+
+<ul>
+    <li>
+        <a href="https://en.wikipedia.org/wiki/Hungary" target="_blank">
+            {% trans "Hungary - Wikipedia" %}
+        </a>
+    </li>
+    <li>
+        <a href="https://visithungary.com/" target="_blank">
+            {% trans "Visit Hungary" %}
+        </a>
+    </li>
+    <li>
+        <a href="https://studyinhungary.hu/" target="_blank">
+            {% trans "Study in Hungary" %}
+        </a>
+    </li>
+</ul>
+
+{% endblock %}

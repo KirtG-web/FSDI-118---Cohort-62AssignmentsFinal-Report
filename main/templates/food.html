@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<h2>{% trans "Hungarian Food" %}</h2>
+
+<p>
+{% trans "Hungarian cuisine is known for its rich flavors and use of paprika." %}
+</p>
+
+<ul>
+    <li>{% trans "Goulash – a traditional meat stew" %}</li>
+    <li>{% trans "Chicken Paprikash – creamy paprika dish" %}</li>
+    <li>{% trans "Lángos – fried flatbread" %}</li>
+    <li>{% trans "Dobos Torte – layered cake with caramel" %}</li>
+</ul>
+
+{% endblock %}

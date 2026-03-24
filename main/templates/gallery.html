@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<section class="gallery-section">
+
+    <h2>{% trans "Gallery" %}</h2>
+
+    <p>
+        {% trans "Explore Hungary's landscapes, architecture, cuisine, and cultural events. Click on a section to learn more." %}
+    </p>
+
+    <div class="gallery-grid">
+
+        <!-- History Card -->
+        <div class="gallery-item">
+            <img src="{% static 'images/skyline.jpg' %}" alt="{% trans 'Budapest Skyline' %}">
+            <h3><a href="{% url 'history' %}">{% trans "History" %}</a></h3>
+            <p>{% trans "Discover Hungary's rich past and historical landmarks." %}</p>
+        </div>
+
+        <!-- Culture Card -->
+        <div class="gallery-item">
+            <img src="{% static 'images/dance.jpg' %}" alt="{% trans 'Traditional Folk Dance' %}">
+            <h3><a href="{% url 'culture' %}">{% trans "Culture & Traditions" %}</a></h3>
+            <p>{% trans "Experience vibrant Hungarian festivals, music, and folk dances." %}</p>
+        </div>
+
+        <!-- Cuisine Card -->
+        <div class="gallery-item">
+            <img src="{% static 'images/food.jpg' %}" alt="{% trans 'Hungarian Cuisine' %}">
+            <h3><a href="{% url 'food' %}">{% trans "Cuisine" %}</a></h3>
+            <p>{% trans "Savor traditional Hungarian dishes like Gulyás and Paprikás Csirke." %}</p>
+        </div>
+
+        <!-- Landmarks Card -->
+        <div class="gallery-item">
+            <img src="{% static 'images/lake_balaton.jpg' %}" alt="{% trans 'Lake Balaton' %}">
+            <h3><a href="{% url 'landmarks' %}">{% trans "Landmarks" %}</a></h3>
+            <p>{% trans "Explore iconic landmarks and scenic spots across Hungary." %}</p>
+        </div>
+
+        <!-- Language Card -->
+        <div class="gallery-item">
+            <img src="{% static 'images/language.jpg' %}" alt="{% trans 'Hungarian Language' %}">
+            <h3><a href="{% url 'language' %}">{% trans "Language" %}</a></h3>
+            <p>{% trans "Learn about the Hungarian language and unique expressions." %}</p>
+        </div>
+
+    </div>
+
+    <p>
+        {% trans "Return to the" %}
+        <a href="{% url 'home' %}">{% trans "Home" %}</a>
+        {% trans "page or visit" %}
+        <a href="{% url 'about' %}">{% trans "About Hungary" %}</a>
+        {% trans "for more details." %}
+    </p>
+
+</section>
+{% endblock %}

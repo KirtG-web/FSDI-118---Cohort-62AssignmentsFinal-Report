@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<section class="clothing-section">
+
+<h2>{% trans "Traditional Hungarian Clothing" %}</h2>
+
+<p>
+{% trans "Hungarian traditional clothing reflects the rich cultural heritage of different regions. Embroidery, patterns, and colors vary widely, often showing a family or village’s history and identity." %}
+</p>
+
+<div class="clothing-details">
+
+    <div class="clothing-item">
+        <h3>{% trans "Folk Costumes" %}</h3>
+        <p>
+        {% trans "These are often worn during festivals, weddings, and national celebrations. Women wear embroidered blouses and skirts, while men wear vests and trousers adorned with local patterns." %}
+        </p>
+    </div>
+
+    <div class="clothing-item">
+        <h3>{% trans "Accessories" %}</h3>
+        <p>
+        {% trans "Belts, headscarves, and decorative hats are important in Hungarian folk attire, completing the traditional look." %}
+        </p>
+    </div>
+
+    <div class="clothing-item">
+        <h3>{% trans "Regional Variations" %}</h3>
+        <p>
+        {% trans "Each region has unique designs and colors, representing the local heritage and community traditions." %}
+        <a href="{% url 'culture' %}">{% trans "Culture & Traditions" %}</a>
+        </p>
+    </div>
+
+</div>
+
+</section>
+{% endblock %}

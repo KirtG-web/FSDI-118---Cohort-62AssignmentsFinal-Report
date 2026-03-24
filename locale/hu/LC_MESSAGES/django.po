@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-24 04:19-0500\n"
+"PO-Revision-Date: 2026-03-24\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# --- ABOUT ---
+msgid "About Hungary"
+msgstr "Magyarországról"
+
+msgid "Hungary has a rich history and vibrant culture."
+msgstr "Magyarország gazdag történelemmel és élénk kultúrával rendelkezik."
+
+msgid "Hungary has a long and complex history, influenced by various cultures and empires. It has been home to the Magyars since the 9th century and has seen periods of Ottoman, Habsburg, and Soviet influence."
+msgstr "Magyarország hosszú és összetett történelemmel rendelkezik."
+
+msgid "Learn more in our History section."
+msgstr "További információ a Történelem oldalon."
+
+msgid "Language"
+msgstr "Nyelv"
+
+msgid "Hungarian (Magyar) is the official language of Hungary. It is a unique language belonging to the Uralic language family and is not closely related to other European languages."
+msgstr "A magyar hivatalos nyelv."
+
+msgid "Want to learn more? Check out our Language page."
+msgstr "Szeretne többet megtudni? Nézze meg a Nyelv oldalt."
+
+msgid "Cultural Identity"
+msgstr "Kulturális identitás"
+
+msgid "Hungarians take great pride in their cultural heritage, which includes traditional music, dance, cuisine, and festivals. The country is known for its vibrant folk traditions and contributions to art and literature."
+msgstr "A magyarok büszkék kulturális örökségükre."
+
+msgid "Explore Culture & Traditions and view our Gallery."
+msgstr "Fedezze fel a Kultúra és hagyományok oldalt."
+
+msgid "Cuisine & Traditions"
+msgstr "Konyha és hagyományok"
+
+msgid "Discover traditional Hungarian dishes in our Food section and learn about celebrations in Holidays. Explore iconic Landmarks as well."
+msgstr "Fedezze fel a hagyományos magyar ételeket és ünnepeket."
+
+# --- BASE ---
+msgid "Hungarian Heritage Site"
+msgstr "Magyar Örökség Oldal"
+
+msgid "Home"
+msgstr "Főoldal"
+
+msgid "About"
+msgstr "Rólunk"
+
+msgid "Gallery"
+msgstr "Galéria"
+
+msgid "Clothing"
+msgstr "Ruházat"
+
+msgid "Culture"
+msgstr "Kultúra"
+
+msgid "Food"
+msgstr "Ételek"
+
+msgid "Holidays"
+msgstr "Ünnepek"
+
+msgid "Landmarks"
+msgstr "Nevezetességek"
+
+msgid "History"
+msgstr "Történelem"
+
+msgid "Resources"
+msgstr "Források"
+
+msgid "Contact"
+msgstr "Kapcsolat"
+
+msgid "Hungarian Heritage Project"
+msgstr "Magyar Örökség Projekt"
+
+# --- INDEX ---
+msgid "Welcome to the Magyar Heritage Site"
+msgstr "Üdvözöljük a Magyar Örökség Oldalon"
+
+msgid "Discover the rich culture, history, and traditions of Hungary through our collection of articles, images, and resources."
+msgstr "Fedezze fel Magyarország gazdag kultúráját."
+
+msgid "Learn about Hungary's geography, people, and cultural identity."
+msgstr "Ismerje meg Magyarország földrajzát és kultúráját."
+
+msgid "Explore a visual journey through Hungary's landscapes, architecture, and cultural events."
+msgstr "Fedezze fel Magyarország tájait."
+
+msgid "Traditional Clothing"
+msgstr "Hagyományos ruházat"
+
+msgid "Culture & Traditions"
+msgstr "Kultúra és hagyományok"
+
+msgid "Cuisine"
+msgstr "Konyha"
+
+# --- CLOTHING ---
+msgid "Traditional Hungarian Clothing"
+msgstr "Hagyományos magyar ruházat"
+
+msgid "Folk Costumes"
+msgstr "Népi viseletek"
+
+msgid "Accessories"
+msgstr "Kiegészítők"
+
+msgid "Regional Variations"
+msgstr "Regionális változatok"
+
+# --- CULTURE ---
+msgid "Hungarian Culture"
+msgstr "Magyar kultúra"
+
+msgid "Folk dances and traditional clothing"
+msgstr "Néptánc és hagyományos ruházat"
+
+msgid "Handmade crafts and embroidery"
+msgstr "Kézműves alkotások és hímzés"
+
+msgid "Famous composers like Franz Liszt and Béla Bartók"
+msgstr "Liszt Ferenc és Bartók Béla"
+
+# --- FOOD ---
+msgid "Hungarian Food"
+msgstr "Magyar ételek"
+
+msgid "Hungarian cuisine is known for its rich flavors and use of paprika."
+msgstr "A magyar konyha híres a paprikáról."
+
+msgid "Goulash – a traditional meat stew"
+msgstr "Gulyás"
+
+msgid "Chicken Paprikash – creamy paprika dish"
+msgstr "Paprikás csirke"
+
+msgid "Lángos – fried flatbread"
+msgstr "Lángos"
+
+msgid "Dobos Torte – layered cake with caramel"
+msgstr "Dobos torta"
+
+# --- HISTORY ---
+msgid "Hungary History"
+msgstr "Magyar történelem"
+
+msgid "Hungary has a long and rich history, dating back over a thousand years. It includes the formation of the Hungarian state and important events like the 1848 Revolution."
+msgstr "Magyarország történelme több mint ezer évre nyúlik vissza."
+
+# --- LANDMARKS ---
+msgid "Famous Landmarks of Hungary"
+msgstr "Magyarország híres nevezetességei"
+
+msgid "Hungarian Parliament Building in Budapest"
+msgstr "Országház"
+
+msgid "Buda Castle"
+msgstr "Budai vár"
+
+msgid "Chain Bridge"
+msgstr "Lánchíd"
+
+# --- LANGUAGE ---
+msgid "Hungarian Language"
+msgstr "Magyar nyelv"
+
+msgid "The official language of Hungary is Hungarian (Magyar). It belongs to the Finno-Ugric language family."
+msgstr "A magyar nyelv hivatalos nyelv."
+
+msgid "Very different from most European languages"
+msgstr "Nagyon különbözik az európai nyelvektől"
+
+msgid "Uses unique grammar rules"
+msgstr "Egyedi nyelvtan"
+
+msgid "Includes accented characters"
+msgstr "Ékezetes karaktereket tartalmaz"
+
+# --- HOLIDAYS ---
+msgid "Holidays & Traditions"
+msgstr "Ünnepek és hagyományok"
+
+msgid "Hungary has many rich and meaningful holidays that reflect its culture, history, and traditions."
+msgstr "Magyarország gazdag ünnepi hagyományokkal rendelkezik."
+
+msgid "Christmas"
+msgstr "Karácsony"
+
+msgid "Easter"
+msgstr "Húsvét"
+
+msgid "St. Stephen’s Day"
+msgstr "Szent István napja"
+
+msgid "Celebrated with unique traditions like \"watering\" and colorful folk customs."
+msgstr "Locsolkodás és népi hagyományok jellemzik."
+
+# --- GALLERY ---
+msgid "Hungarian Cuisine"
+msgstr "Magyar konyha"
+
+msgid "Budapest Skyline"
+msgstr "Budapesti látkép"
+
+msgid "Lake Balaton"
+msgstr "Balaton"
+
+msgid "Return to the"
+msgstr "Vissza a"
+
+msgid "page or visit"
+msgstr "oldalra vagy látogasson el a"
+
+msgid "for more details."
+msgstr "további részletekért."
+
+# --- CONTACT ---
+msgid "Contact Us"
+msgstr "Kapcsolat"
+
+msgid "If you have any questions, feel free to reach out!"
+msgstr "Ha bármilyen kérdése van, forduljon hozzánk bizalommal!"
+
+msgid "Name"
+msgstr "Név"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Message"
+msgstr "Üzenet"
+
+msgid "Send"
+msgstr "Küldés"

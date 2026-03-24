@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<h2>{% trans "Hungarian Language" %}</h2>
+
+<p>
+{% trans "The official language of Hungary is Hungarian (Magyar). It belongs to the Finno-Ugric language family." %}
+</p>
+
+<ul>
+    <li>{% trans "Very different from most European languages" %}</li>
+    <li>{% trans "Uses unique grammar rules" %}</li>
+    <li>{% trans "Includes accented characters" %}</li>
+</ul>
+
+{% endblock %}
